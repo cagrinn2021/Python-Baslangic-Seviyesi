@@ -1,0 +1,20 @@
+bilgi={
+    "Ad":"cagri",
+    "soyad":"esen",
+    "dogumyer":"gop",
+    "Tc":143123514
+}
+print(bilgi.keys())
+print(bilgi.values())
+print(bilgi.items())
+print(bilgi.get("soyad"))
+bilgi.update({"Cinsiyet":"Erkek"})
+print(bilgi)
+bilgi2=bilgi
+print(bilgi2)
+print(bilgi.__len__())
+bilgi.pop("soyad")#bilgi silme
+print(bilgi)
+bilgi.clear()
+print(bilgi
+      )
